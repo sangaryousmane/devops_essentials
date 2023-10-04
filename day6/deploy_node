@@ -1,0 +1,37 @@
+################
+# Author: Ousmane Sangary
+# Date: October 04 2023
+# Task:
+# Deploy nodejs app to my ec2 instance today
+# Configure new user with IAM, created EC2 instance, created key-pair value
+# Connect the aws console to my CLI
+##############
+
+
+Steps:
+1. Test project on local to see whether everything works perfectly
+
+2. Create a new user through the steps in the amazon console
+
+3. Create new EC2 instance
+
+4. Connect remote ec2 to your console
+
+5. check for updates
+   sudo yum update
+
+6. install git in your in your local aws linux ec2 instance
+   sudo yum install git
+
+7. install nodejs in your aws ec2 linux instance
+   sudo yum install nodejs
+
+8. Install npm to run your commands on the ec2 instance
+   sudo yum install npm
+
+9. Configure the inbound security group on your ec2 instance to allow public ports to connect
+   Add your port to the inbound security group and make it accessible everywhere
+
+10. Use the public IP-address and the port number to see whether everything is fine 
+
+11. Done
